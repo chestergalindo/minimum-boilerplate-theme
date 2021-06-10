@@ -7,8 +7,17 @@
   },
   "header-layout.desktop": {
     "children": [
+      "rich-text", 
       "sticky-layout#desktop"
     ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Drop + MiTo GMK Laser Keycaps Outrun-styled, 20k sets sold NOW IN STOCK",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "string"
+    }
   },
   "sticky-layout#desktop": {
     "props": {
