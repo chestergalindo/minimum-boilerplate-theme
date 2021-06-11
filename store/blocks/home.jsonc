@@ -1,9 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      // "responsive-layout.desktop#desktop",      
-      // "responsive-layout.mobile#mobile",
-      "tab-layout"
+      "tab-layout",
+      "modal-trigger#first"
     ]
   },
   "tab-layout":{
@@ -66,6 +65,27 @@
       "text": "Texto para electronics",
       "textPosition": "CENTER",
       "font": "t-heading-3"
+    }
+  },
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ] 
+  },
+  "rich-text#trigger":{
+    "props": {
+      "text": "see me!"
+    }
+  },
+  "modal-layout#first":{
+    "children": [
+      "rich-text#hello"
+    ]
+  },
+  "rich-text#hello":{
+    "props": {
+      "text": "hello"
     }
   }
 }
